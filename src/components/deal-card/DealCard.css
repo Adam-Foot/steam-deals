@@ -1,0 +1,105 @@
+.card-100 {
+    flex: 1 0;
+    border: white 3px solid;
+    padding: 14px;
+    margin: 0 0 40px 0;
+    border-radius: 25px;
+    background: #212623;
+}
+
+.card {
+    flex: 1 0 calc(50% - 1em);
+    border: white 3px solid;
+    padding: 6px;
+    margin: 4px;
+    border-radius: 25px;
+    background: #212623;
+}
+
+@media (min-width: 576px) {
+    .card {
+        flex: 1 0 calc(60% - 1em);
+        border: white 3px solid;
+        padding: 6px;
+        margin: 4px;
+        border-radius: 25px;
+        background: #212623;
+    }
+}
+@media (min-width: 768px) {
+    .card {
+        flex: 1 0 calc(35% - 1em);
+        border: white 3px solid;
+        padding: 6px;
+        margin: 4px;
+        border-radius: 25px;
+        background: #212623;
+    }
+}
+@media (min-width: 992px) {
+    .card {
+        flex: 1 0 calc(30% - 1em);
+        border: white 3px solid;
+        padding: 6px;
+        margin: 4px;
+        border-radius: 25px;
+        background: #212623;
+    }
+}
+
+.card-header {
+    background: dimgray;
+    border-radius: 15px;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-title .price {
+    background: green;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+
+.savings {
+    margin-left: auto;
+    background: red;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+p {
+    margin: 0;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-body p {
+    background: black;
+    margin: 6px;
+    border-radius: 25px;
+    padding: 0 20px;
+}
+
+.card-body p span {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: #212623;
+}
